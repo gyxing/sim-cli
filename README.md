@@ -3,7 +3,7 @@ nodejs简易后台脚手架
 
 安装：
 ```
-npm i -g sumn-cli
+npm i -g simn-cli
 
 simn init <ProjectName>
 ```
