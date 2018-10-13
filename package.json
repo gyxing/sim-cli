@@ -2,6 +2,7 @@
     "name": "sim-cli",
     "version": "0.0.1",
     "description": "脚手架例子",
+    "private": true,
     "main": "index.js",
     "bin": {
         "sim": "index.js"
