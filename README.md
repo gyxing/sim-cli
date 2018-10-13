@@ -5,7 +5,7 @@ nodejs简易后台脚手架
 ```
 npm i -g sumn-cli
 
-sumn init <ProjectName>
+simn init <ProjectName>
 ```
 
 @TODO
