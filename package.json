@@ -1,8 +1,11 @@
 {
     "name": "simn-cli",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "脚手架例子",
     "main": "index.js",
+    "author": "gyxing <172176234@qq.com>",
+    "license": "MIT",
+    "private": false,
     "bin": {
         "simn": "index.js"
     },
@@ -14,7 +17,7 @@
         "url": "https://github.com/gyxing/simn-cli/issues"
     },
     "homepage": "https://github.com/gyxing/simn-cli#readme",
-    "devDependencies": {
+    "dependencies": {
         "chalk": "^2.4.1",
         "commander": "^2.19.0",
         "download-git-repo": "^1.1.0",
