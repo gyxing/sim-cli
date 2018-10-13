@@ -4,6 +4,8 @@ nodejs简易后台脚手架
 安装：
 ```
 npm i -g sumn-cli
+
+sumn init <ProjectName>
 ```
 
 @TODO
