@@ -10,6 +10,8 @@ const symbols = require('log-symbols');
 
 const _VERSION_ = '0.0.2';  // 版本号
 
+const templates = ['nodejs-simple'];
+
 program.version(_VERSION_, '-v, --version')
     .command('init <name>')
     .action((name) => {
@@ -27,11 +29,17 @@ program.version(_VERSION_, '-v, --version')
                     name: 'author',
                     message: 'Author',
                     default: 'anonymity'
+                }, {
+                    type: 'list',
+                    name: 'template',
+                    message: 'Choose template',
+                    choices: templates,
+                    default: 'nodejs-simple'
                 }
             ]).then((answers) => {
                 const spinner = ora('downloading template...');
                 spinner.start();
-                download('direct:https://github.com/gyxing/nodejs-simple.git#master', name, {clone: true}, (err) => {
+                download(`direct:https://github.com/gyxing/${answers.template}.git#master`, name, {clone: true}, (err) => {
                     if(err){
                         spinner.fail();
                         console.log(symbols.error, chalk.red(err));
