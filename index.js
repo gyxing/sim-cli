@@ -8,7 +8,7 @@ const ora = require('ora');
 const chalk = require('chalk');
 const symbols = require('log-symbols');
 
-const _VERSION_ = '0.0.3';  // 版本号
+const _VERSION_ = '0.0.4';  // 版本号
 
 const templates = ['nodejs-simple', 'webpack-multi-project'];
 
