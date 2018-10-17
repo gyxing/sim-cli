@@ -1,6 +1,6 @@
 {
     "name": "simn-cli",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "脚手架例子",
     "main": "index.js",
     "author": "gyxing <172176234@qq.com>",
