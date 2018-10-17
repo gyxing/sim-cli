@@ -10,7 +10,7 @@ const symbols = require('log-symbols');
 
 const _VERSION_ = '0.0.3';  // 版本号
 
-const templates = ['nodejs-simple'];
+const templates = ['nodejs-simple', 'webpack-multi-project'];
 
 program.version(_VERSION_, '-v, --version')
     .command('init <name>')
